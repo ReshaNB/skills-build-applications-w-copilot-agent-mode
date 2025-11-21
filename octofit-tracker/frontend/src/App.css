@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #0d47a1;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table th {
+  background: #1976d2;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+.btn, .btn-primary {
+  background: #1976d2;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #0d47a1;
+  color: #ffd600;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffd600;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border: none;
+}
+
+/* Modal custom styles */
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header {
+  background: #1976d2;
+  color: #fff;
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
